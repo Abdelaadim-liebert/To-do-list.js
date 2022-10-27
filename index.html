@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn JavaScript</title>
+  </head>
+  <style>
+    body{
+      background-color: #eee;
+    }
+    .form{
+      position: relative;
+      margin-left: 20%;
+      margin-top: 60px;
+      background-color: gray;
+      height: 100px;
+      width: 650px;
+      border-radius: 17px;
+    }
+    input[type="text"]{
+      margin-top: 20px;
+      margin-left: 20px;
+      height: 55px;
+      width: 490px;
+      border-radius: 10px;
+      opacity: 0.8;
+    }
+    input[type="submit"]{
+      margin-top: 20px;
+      margin-left: 0px;
+      height: 48px;
+      width: 120px;
+      border-radius: 7px;
+      opacity: 0.8;
+      cursor:zoom-in;
+      opacity: 0.7;
+      background-color: orange;
+    }
+    input[type="submit"]:hover{
+      opacity: 1;
+    }
+    
+    .tasks{
+      position: relative;
+      background-color: #bab0b08a;
+      width: 650px;
+      height: 100px;
+      margin-top: 20px;
+      margin-left: 20%;
+      border-radius: 12px;
+      display: none;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="form">
+        <input type="text" name="task" />
+        <input type="submit" name="submit" value="Add Task" />
+      </div>
+      
+     <br><br>
+      <div class="tasks"></div>
+      <script src="inner.js"></script>
+    </div>
+  </body>
+</html>
