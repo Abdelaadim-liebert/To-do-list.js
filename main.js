@@ -20,8 +20,6 @@ submit.addEventListener("click", function (e) {
   if (localStorage.getItem("Tasks")) {
     arrayofdata = JSON.parse(localStorage.getItem("Tasks"));
     arrayofdata.forEach((element) => {
-      // if (window.localStorage.getItem("Tasks") !== null) {
-
       
       divTask.style = "display:block";
 
